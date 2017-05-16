@@ -1,0 +1,31 @@
+nav {
+  background: blue;
+
+  ul {
+    list-style: none;
+    display: flex;
+    width: 500px;
+    margin: auto;
+
+    li {
+      padding: 10px;
+
+      &.active {
+        background: white;
+
+        a {
+          color: blue;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover, &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

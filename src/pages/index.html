@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+{% import "macros/navigation/navigation.html" as navigation %}
+
+{% block head %}
+    <title>Hello, World!</title>
+{% endblock %}
+
+{% block navigation %}
+    {{ navigation.for('home') }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="home">
+        <h2>
+            Hello, World!
+        </h2>
+        <img src="/assets/images/hello.gif">
+
+        <div>
+            <button id="do-stuff">Do some JavaScript!</button>
+        </div>
+    </div>
+
+{% endblock %}

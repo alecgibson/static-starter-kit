@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/assets/style/application.css">
+
+    <title>My Website</title>
+    {% block head %} {% endblock %}
+</head>
+<body>
+    {% include "partials/header/header.html" %}
+
+    {% block navigation %} {% endblock %}
+
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+    <script src="/assets/javascript/application.min.js"></script>
+</body>
+</html>

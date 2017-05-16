@@ -1,0 +1,12 @@
+{% macro for(activePage) %}
+<nav>
+    <ul>
+        <li class="{{ 'active' if activePage === 'home' }}">
+            <a href="/">Home</a>
+        </li>
+        <li class="{{ 'active' if activePage === 'about' }}">
+            <a href="/about">About</a>
+        </li>
+    </ul>
+</nav>
+{% endmacro %}

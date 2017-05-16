@@ -1,0 +1,34 @@
+{% extends "base/base.html" %}
+{% import "macros/navigation/navigation.html" as navigation %}
+
+{% block head %}
+    <title>About</title>
+{% endblock %}
+
+{% block navigation %}
+    {{ navigation.for('about') }}
+{% endblock %}
+
+{% block content %}
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat, velit quis luctus auctor, dui nisl placerat
+        urna, eget blandit nisi tortor sit amet purus. Morbi non neque congue, dictum leo nec, tempus lectus. Integer eget
+        nibh suscipit, blandit ex ut, vehicula lacus. Suspendisse ac odio posuere elit molestie aliquam at quis libero.
+        Mauris nisl lectus, ullamcorper quis diam vitae, cursus mattis sapien. Praesent id velit in tortor consequat luctus
+        sit amet sed elit. Phasellus consectetur ipsum nec accumsan sagittis. Nunc non placerat ante. Suspendisse fermentum,
+        nisi a pharetra sollicitudin, magna lectus posuere ex, vel iaculis diam neque at nibh.</p>
+
+    <p>Donec cursus sapien sed felis lacinia, a congue orci finibus. Fusce nec magna in nunc venenatis molestie sit amet et
+        dolor. Integer tortor quam, tincidunt sed posuere vel, fermentum at nisl. Donec lobortis scelerisque turpis, ac
+        blandit ipsum pulvinar a. Proin congue est quis est condimentum rutrum. Donec eget neque risus. Duis tristique,
+        libero quis dapibus ultricies, sapien felis cursus ante, tristique bibendum ex arcu eget velit. Cras vitae
+        sollicitudin est, eget suscipit elit. Aliquam rutrum ultricies felis. Pellentesque vel facilisis libero. Curabitur
+        mattis urna quis mauris bibendum interdum. Morbi mattis diam tortor, eget auctor turpis porta sagittis. Suspendisse
+        potenti. Curabitur at urna odio. Nullam ac est et justo commodo finibus.</p>
+
+    <p>Ut imperdiet aliquam tortor, id feugiat tellus lobortis eu. Vivamus cursus ipsum eget tortor placerat mattis. Ut
+        interdum, felis laoreet dignissim vestibulum, nulla lectus volutpat lorem, non commodo nunc enim vel dolor. In hac
+        habitasse platea dictumst. Donec vel dapibus felis. Phasellus elementum sodales pellentesque. Morbi libero turpis,
+        ullamcorper non finibus vitae, sagittis ut magna. Proin tincidunt, mi nec maximus malesuada, nisl nibh feugiat
+        libero, id facilisis eros nibh et metus. Phasellus sed massa lacinia, viverra odio et, vestibulum augue.</p>
+{% endblock %}

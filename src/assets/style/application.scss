@@ -1,0 +1,14 @@
+@import "../../templates/base/base";
+@import "../../templates/partials/header/header";
+@import "../../templates/macros/navigation/navigation";
+@import "../../pages/home";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 600px;
+  margin: auto;
+}
